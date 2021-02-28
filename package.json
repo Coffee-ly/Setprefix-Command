@@ -1,0 +1,27 @@
+{
+    "name": "setprefix-command",
+    "version": "1.0.0",
+    "description": "Setprefix command for discord.js-commando",
+    "main": "index.js",
+    "scripts": {
+      "start": "node .",
+      "pretest": "eslint --ignore-path .gitignore .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Coffee",
+    "license": "ISC",
+    "dependencies": {
+      "@discordjs/opus": "^0.3.3",
+      "discord.js-commando": "github:discordjs/Commando",
+      "common-tags": "^1.8,0"
+    },
+    "devDependencies": {
+      "@getify/eslint-plugin-proper-arrows": "^8.0.1",
+      "@getify/eslint-plugin-proper-ternary": "^3.0.1",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^5.16.0",
+      "nodemon": "^2.0.7",
+      "prettier": "^1.19.1"
+    }
+  }
+  
